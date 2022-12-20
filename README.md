@@ -9,3 +9,7 @@
 ### To run script need add .json file with Service Accounts credentials
 
 ### link to [http://site.com/phpmyadmin](http://34.141.36.35/phpmyadmin/index.php)
+
+## Admin Panel phpmyadmin
+
+![admin panel phpmyadmin](phpmyadmin.png)
