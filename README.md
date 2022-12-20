@@ -1,4 +1,4 @@
-#Install LAMP stak on GCP by using terraform
+# Install LAMP stak on GCP by using terraform
 
 1. Created VM on GCP
 2. Configured firewall
