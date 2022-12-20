@@ -6,6 +6,6 @@
 4. Installed phpMyAdmin
 5. Installed and configured MariaBD
 
-###To run script need add .json file with Service Accounts credentials
+### To run script need add .json file with Service Accounts credentials
 
-###link to [http://site.com/phpmyadmin](http://34.141.36.35/phpmyadmin/index.php)
+### link to [http://site.com/phpmyadmin](http://34.141.36.35/phpmyadmin/index.php)
