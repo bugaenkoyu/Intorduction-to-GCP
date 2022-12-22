@@ -74,8 +74,8 @@ sudo systemctl enable mariadb
 
 sudo mysql<<EOF
 DELETE FROM mysql.user WHERE User='root' AND Host NOT IN ('localhost', '127.0.0.1', '::1');
-CREATE USER 'PRINT_YOUR_NAME'@'localhost' IDENTIFIED BY 'PRINT_YOUR_PASS';
-GRANT ALL PRIVILEGES ON *.* TO 'PRINT_YOUR_NAME'@'localhost' IDENTIFIED BY 'PRINT_YOUR_PASS';
+CREATE USER 'dbuser'@'localhost' IDENTIFIED BY '12345678Qw!';
+GRANT ALL PRIVILEGES ON *.* TO 'dbuser'@'localhost' IDENTIFIED BY '12345678Qw!';
 DELETE FROM mysql.user WHERE User='';
 FLUSH PRIVILEGES;
 DROP DATABASE IF EXISTS test;
